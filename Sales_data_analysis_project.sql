@@ -56,8 +56,6 @@ CREATE TABLE sales (
 
 SET datestyle = 'ISO, DMY';
 
--- Importing data from the PC
-SET datestyle = 'ISO, DMY';
 
 COPY sales (
     "row_id", "order_id", "orderdate", "shipdate", "ship_mode", 
